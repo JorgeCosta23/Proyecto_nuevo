@@ -32,5 +32,13 @@ public class botonesactivity extends AppCompatActivity {
 
             }
         });
+        Button cerrarsesion = (Button) findViewById(R.id.idlistalocales);
+        cerrarsesion.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(getApplicationContext(), loginactivity.class);
+                startActivity(intent1);
+            }
+        });
     }
 }
