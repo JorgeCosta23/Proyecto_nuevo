@@ -58,7 +58,7 @@ public class mapaactivity extends FragmentActivity implements OnMapReadyCallback
 
         mMap.addPolyline((new PolylineOptions()).add(AVBRAZIL, AVECUADOR, AVARGENTINA, AVCOLLIN, AVBRAZIL).
                 width(5).color(Color.RED).geodesic(true));
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(AVBRAZIL, 13));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(AVBRAZIL, 14));
 
 
     }
