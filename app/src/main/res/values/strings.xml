@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Food Delivery</string>
+    <string name="title_activity_mapa">mapa</string>
+    <string name="title_activity_mapaactivity">mapaactivity</string>
+</resources>

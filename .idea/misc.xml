@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/RecyclerView/RecyclerView/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2545" />
+        <entry key="..\:/RecyclerView/RecyclerView/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2545" />
+        <entry key="..\:/RecyclerView/RecyclerView/app/src/main/res/layout/activity_botonesactivity.xml" value="0.25416666666666665" />
+        <entry key="..\:/RecyclerView/RecyclerView/app/src/main/res/layout/activity_loginactivity.xml" value="0.2441123188405797" />
+        <entry key="..\:/RecyclerView/RecyclerView/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/RecyclerView/RecyclerView/app/src/main/res/layout/card_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/RecyclerView/RecyclerView/app/src/main/res/layout/locales_layout.xml" value="0.2" />
+        <entry key="..\:/Users/Jorge Costa/Desktop/RecyclerView/app/src/main/res/layout/activity_botonesactivity.xml" value="0.21516754850088182" />
+        <entry key="..\:/Users/Jorge Costa/Desktop/RecyclerView/app/src/main/res/layout/activity_lista_comidas.xml" value="0.22327898550724637" />
+        <entry key="..\:/Users/Jorge Costa/Desktop/RecyclerView/app/src/main/res/layout/activity_loginactivity.xml" value="0.22327898550724637" />
+        <entry key="..\:/Users/Jorge Costa/Desktop/RecyclerView/app/src/main/res/layout/activity_main.xml" value="0.22327898550724637" />
+        <entry key="..\:/Users/Jorge Costa/Desktop/RecyclerView/app/src/main/res/layout/activity_mapa.xml" value="0.22327898550724637" />
+        <entry key="..\:/Users/Jorge Costa/Desktop/RecyclerView/app/src/main/res/layout/activity_mapaactivity.xml" value="0.22327898550724637" />
+        <entry key="..\:/Users/Jorge Costa/Desktop/RecyclerView/app/src/main/res/layout/locales_layout.xml" value="0.22327898550724637" />
+        <entry key="..\:/android/RecyclerView/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/android/RecyclerView/app/src/main/res/layout/card_layout.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
