@@ -6,4 +6,22 @@
     android:layout_height="match_parent"
     tools:context=".btlistalocales">
 
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="647dp"
+        android:layout_height="1180dp"
+        app:srcCompat="@drawable/listabotones"
+        tools:layout_editor_absoluteX="-118dp"
+        tools:layout_editor_absoluteY="-257dp" />
+
+    <Button
+        android:id="@+id/idbotonrandy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="176dp"
+        android:text="Randy´s Burger"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.707"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

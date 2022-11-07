@@ -18,7 +18,7 @@ public class botonesactivity extends AppCompatActivity {
         botonlocales.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent1 = new Intent(getApplicationContext(), MainActivity.class);
+                Intent intent1 = new Intent(getApplicationContext(), btlistalocales.class);
                 startActivity(intent1);
             }
 
