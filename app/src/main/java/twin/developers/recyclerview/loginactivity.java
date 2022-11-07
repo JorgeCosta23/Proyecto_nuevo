@@ -20,6 +20,9 @@ public class loginactivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loginactivity);
 
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference myRef = database.getReference("message");
+
 
         Button ButtonLogin = (Button) findViewById(R.id.botonregis);
         ButtonLogin.setOnClickListener(new View.OnClickListener() {
@@ -27,6 +30,7 @@ public class loginactivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent1 = new Intent(getApplicationContext(), botonesactivity.class);
                 startActivity(intent1);
+                myRef.setValue("Ingresaste al inicio");
             }
         });
 
