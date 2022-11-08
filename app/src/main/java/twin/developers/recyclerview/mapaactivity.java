@@ -42,18 +42,33 @@ public class mapaactivity extends FragmentActivity implements OnMapReadyCallback
 
         // Add a marker in Sydney and move the camera
         LatLng Rburger = new LatLng(-36.6083147, -72.1115355);
-        mMap.addMarker(new MarkerOptions().position(Rburger).title("Randy's Burger").snippet("Direccion"));
+        mMap.addMarker(new MarkerOptions().position(Rburger).title("Randy's Burger").snippet("Rosas #820, Chillán"));
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(Rburger, 15.0f));
         //mMap.moveCamera((CameraUpdateFactory.zoomIn()));
 
-        LatLng Pjohns = new LatLng(-36.6070714, -72.0923757);
-        mMap.addMarker(new MarkerOptions().position(Pjohns).title("Papa John's"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(Pjohns, 15.0f));
+        LatLng tentao = new LatLng(-36.611901, -72.094490);
+        mMap.addMarker(new MarkerOptions().position(tentao).title("Tentao").snippet("Av. Argentina #772, Chillán"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(tentao, 15.0f));
         //mMap.moveCamera((CameraUpdateFactory.zoomIn()));
 
-        LatLng Tentao = new LatLng(-36.6119383, -72.0940866);
-        mMap.addMarker(new MarkerOptions().position(Tentao).title("Tentao"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(Tentao, 15.0f));
+        LatLng papajohns = new LatLng(-36.607104, -72.092423);
+        mMap.addMarker(new MarkerOptions().position(papajohns).title("Papa John's").snippet("Av. Argentina #387, Chillán"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(papajohns, 15.0f));
+        //mMap.moveCamera((CameraUpdateFactory.zoomIn()));
+
+        LatLng xavisfries = new LatLng(-36.617089, -72.097370);
+        mMap.addMarker(new MarkerOptions().position(xavisfries).title("Xavi's Fries").snippet("Av. Collín #1160, Chillán"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(xavisfries, 15.0f));
+        //mMap.moveCamera((CameraUpdateFactory.zoomIn()));
+
+        LatLng ramona = new LatLng(-36.601067, -72.105452);
+        mMap.addMarker(new MarkerOptions().position(ramona).title("La Ramona").snippet("Claudio Arrau #117, Chillán"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(ramona, 15.0f));
+        //mMap.moveCamera((CameraUpdateFactory.zoomIn()));
+
+        LatLng quincho = new LatLng(-36.613266, -72.094749);
+        mMap.addMarker(new MarkerOptions().position(quincho).title("Quincho Sandwich").snippet("Av. Argentina #889, Chillán"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(quincho, 15.0f));
         //mMap.moveCamera((CameraUpdateFactory.zoomIn()));
 
         mMap.addPolyline((new PolylineOptions()).add(AVBRAZIL, AVECUADOR, AVARGENTINA, AVCOLLIN, AVBRAZIL).

@@ -30,7 +30,7 @@ public class loginactivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent1 = new Intent(getApplicationContext(), botonesactivity.class);
                 startActivity(intent1);
-                myRef.setValue("Ingresaste al inicio");
+                myRef.setValue("Cliqueaste el botón ingresar a la aplicación");
             }
         });
 

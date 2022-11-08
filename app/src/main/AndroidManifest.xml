@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RecyclerView">
         <activity
+            android:name=".tentaoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".localtentao"
+            android:exported="false" />
+        <activity
             android:name=".btlistalocales"
             android:exported="false" />
         <!--
@@ -35,7 +41,7 @@
             android:name=".botonesactivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".randyActivity"
             android:exported="false" />
         <activity android:name=".loginactivity">
             <intent-filter>

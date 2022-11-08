@@ -4,24 +4,95 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#D5491717"
     tools:context=".btlistalocales">
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="647dp"
-        android:layout_height="1180dp"
-        app:srcCompat="@drawable/listabotones"
-        tools:layout_editor_absoluteX="-118dp"
-        tools:layout_editor_absoluteY="-257dp" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/boton1" />
 
     <Button
         android:id="@+id/idbotonrandy"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="176dp"
+        android:layout_width="179dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#545EAE01"
         android:text="Randy´s Burger"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.707"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.083" />
+
+    <Button
+        android:id="@+id/idbotontentao"
+        android:layout_width="179dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#545EAE01"
+        android:text="Tentao"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idbotonrandy"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/idbotonpapaj"
+        android:layout_width="179dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#545EAE01"
+        android:text="Papa John's"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idbotontentao"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/idbotonxavis"
+        android:layout_width="179dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#545EAE01"
+        android:text="Xavi's Fries"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idbotonpapaj"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/idbotonramona"
+        android:layout_width="179dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#545EAE01"
+        android:text="La Ramona"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idbotonxavis"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/idbotonquincho"
+        android:layout_width="195dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#545EAE01"
+        android:text="Quincho Sandwich"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idbotonramona"
+        app:layout_constraintVertical_bias="0.0" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

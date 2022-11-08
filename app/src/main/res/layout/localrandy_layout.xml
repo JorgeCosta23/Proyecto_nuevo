@@ -29,10 +29,13 @@
         android:layout_height="wrap_content">
 
         <!--ImageVIew to display our Course Image-->
+
+        <!--Text View to display Course Name-->
+
         <ImageView
             android:id="@+id/idIVCourseImage"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="83dp"
+            android:layout_height="130dp"
             android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
@@ -41,15 +44,14 @@
             android:padding="5dp"
             android:src="@drawable/burger3" />
 
-        <!--Text View to display Course Name-->
         <TextView
-            android:id="@+id/idTVCourseName"
+            android:id="@+id/idnombretentao"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
             android:layout_toEndOf="@id/idIVCourseImage"
-            android:text="Randy´s Burger"
+            android:text="Comboy burger con papas fritas"
             android:textColor="@color/black"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -57,15 +59,28 @@
         <!--Text VIew to display COurse Rating-->
         <!--Image used in present in drawable folder-->
         <TextView
-            android:id="@+id/idTVCourseRating"
+            android:id="@+id/iddescripciontentao"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/idTVCourseName"
+            android:layout_below="@id/idnombretentao"
             android:layout_marginStart="10dp"
             android:layout_marginTop="20dp"
             android:layout_toEndOf="@id/idIVCourseImage"
             android:drawablePadding="2dp"
-            android:text="Rosas 820, Chillán"
+            android:text="Hamburguesa de vacuno, queso cheddar,lechuga,tocino y aros de cebolla."
+            android:textColor="#CE000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idpreciotentao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iddescripciontentao"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@id/idIVCourseImage"
+            android:drawablePadding="2dp"
+            android:text="$5.990"
             android:textColor="#8E1A1A"
             android:textStyle="bold" />
     </RelativeLayout>
