@@ -25,7 +25,7 @@
     -->
 
     <RelativeLayout
-        android:id="@+id/clicktentao"
+        android:id="@+id/clickrandyburger"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -46,7 +46,7 @@
             android:src="@drawable/burger3" />
 
         <TextView
-            android:id="@+id/idnombretentao"
+            android:id="@+id/idnombrepapaj"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
@@ -59,13 +59,12 @@
 
         <!--Text VIew to display COurse Rating-->
         <!--Image used in present in drawable folder-->
-
         <TextView
-            android:id="@+id/iddescripciontentao"
+            android:id="@+id/iddescripcionpapaj"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/idnombretentao"
-            android:layout_marginStart="11dp"
+            android:layout_below="@id/idnombrepapaj"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="20dp"
             android:layout_toEndOf="@id/idIVCourseImage"
             android:drawablePadding="2dp"
@@ -75,10 +74,10 @@
             tools:ignore="UnknownId" />
 
         <TextView
-            android:id="@+id/idpreciotentao"
+            android:id="@+id/idpreciopapaj"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/iddescripciontentao"
+            android:layout_below="@+id/iddescripcionpapaj"
             android:layout_marginStart="10dp"
             android:layout_marginTop="20dp"
             android:layout_toEndOf="@id/idIVCourseImage"

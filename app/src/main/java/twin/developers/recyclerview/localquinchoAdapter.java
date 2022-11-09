@@ -12,21 +12,21 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 
-public class localrandyAdapter extends RecyclerView.Adapter<localrandyAdapter.Viewholder> {
+public class localquinchoAdapter extends RecyclerView.Adapter<localquinchoAdapter.Viewholder> {
 
     private Context context;
-    private ArrayList<localrandy> localrandyArrayList;
+    private ArrayList<localquincho> localquinchoArrayList;
 
-    public localrandyAdapter(Context context, ArrayList<localrandy> localrandyArrayList) {
+    public localquinchoAdapter(Context context, ArrayList<localquincho> localquinchoArrayList) {
         this.context = context;
-        this.localrandyArrayList = localrandyArrayList;
+        this.localquinchoArrayList = localquinchoArrayList;
 
     }
 
     @NonNull
     @Override
-    public localrandyAdapter.Viewholder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.localrandy_layout,parent,false);
+    public localquinchoAdapter.Viewholder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.localquincho_layout,parent,false);
         return new Viewholder(view);
 
     }
@@ -34,7 +34,7 @@ public class localrandyAdapter extends RecyclerView.Adapter<localrandyAdapter.Vi
     @Override
     public void onBindViewHolder(@NonNull Viewholder holder, int position) {
 
-        localrandy model = localrandyArrayList.get(position);
+        localquincho model = localquinchoArrayList.get(position);
         holder.nombreproducto.setText(model.getNombre());
         holder.descripcionproducto.setText("" + model.getDescripcion());
         holder.precioproducto.setText(model.getPrecio());
@@ -43,7 +43,7 @@ public class localrandyAdapter extends RecyclerView.Adapter<localrandyAdapter.Vi
 
     @Override
     public int getItemCount() {
-        return localrandyArrayList.size();
+        return localquinchoArrayList.size();
     }
 
     public class Viewholder extends RecyclerView.ViewHolder {
@@ -53,9 +53,9 @@ public class localrandyAdapter extends RecyclerView.Adapter<localrandyAdapter.Vi
         public Viewholder(@NonNull View itemView) {
             super(itemView);
             courseIV = itemView.findViewById(idIVCourseImage);
-            nombreproducto = itemView.findViewById(R.id.idnombrerandy);
-            descripcionproducto = itemView.findViewById(R.id.iddescripcionrandy);
-            precioproducto = itemView.findViewById(R.id.idpreciorandy);
+            nombreproducto = itemView.findViewById(R.id.idnombrequincho);
+            descripcionproducto = itemView.findViewById(R.id.iddescripcionquincho);
+            precioproducto = itemView.findViewById(R.id.idprecioquincho);
         }
 
     }

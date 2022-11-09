@@ -12,21 +12,21 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 
-public class localrandyAdapter extends RecyclerView.Adapter<localrandyAdapter.Viewholder> {
+public class localramonaAdapter extends RecyclerView.Adapter<localramonaAdapter.Viewholder> {
 
     private Context context;
-    private ArrayList<localrandy> localrandyArrayList;
+    private ArrayList<localramona> localramonaArrayList;
 
-    public localrandyAdapter(Context context, ArrayList<localrandy> localrandyArrayList) {
+    public localramonaAdapter(Context context, ArrayList<localramona> localramonaArrayList) {
         this.context = context;
-        this.localrandyArrayList = localrandyArrayList;
+        this.localramonaArrayList = localramonaArrayList;
 
     }
 
     @NonNull
     @Override
-    public localrandyAdapter.Viewholder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.localrandy_layout,parent,false);
+    public localramonaAdapter.Viewholder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.localramona_layout,parent,false);
         return new Viewholder(view);
 
     }
@@ -34,7 +34,7 @@ public class localrandyAdapter extends RecyclerView.Adapter<localrandyAdapter.Vi
     @Override
     public void onBindViewHolder(@NonNull Viewholder holder, int position) {
 
-        localrandy model = localrandyArrayList.get(position);
+        localramona model = localramonaArrayList.get(position);
         holder.nombreproducto.setText(model.getNombre());
         holder.descripcionproducto.setText("" + model.getDescripcion());
         holder.precioproducto.setText(model.getPrecio());
@@ -43,7 +43,7 @@ public class localrandyAdapter extends RecyclerView.Adapter<localrandyAdapter.Vi
 
     @Override
     public int getItemCount() {
-        return localrandyArrayList.size();
+        return localramonaArrayList.size();
     }
 
     public class Viewholder extends RecyclerView.ViewHolder {
@@ -53,9 +53,9 @@ public class localrandyAdapter extends RecyclerView.Adapter<localrandyAdapter.Vi
         public Viewholder(@NonNull View itemView) {
             super(itemView);
             courseIV = itemView.findViewById(idIVCourseImage);
-            nombreproducto = itemView.findViewById(R.id.idnombrerandy);
-            descripcionproducto = itemView.findViewById(R.id.iddescripcionrandy);
-            precioproducto = itemView.findViewById(R.id.idpreciorandy);
+            nombreproducto = itemView.findViewById(R.id.idnombreramona);
+            descripcionproducto = itemView.findViewById(R.id.iddescripcionramona);
+            precioproducto = itemView.findViewById(R.id.idprecioramona);
         }
 
     }

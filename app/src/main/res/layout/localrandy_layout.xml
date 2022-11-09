@@ -45,7 +45,7 @@
             android:src="@drawable/burger3" />
 
         <TextView
-            android:id="@+id/idnombretentao"
+            android:id="@+id/idnombrerandy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
@@ -59,10 +59,10 @@
         <!--Text VIew to display COurse Rating-->
         <!--Image used in present in drawable folder-->
         <TextView
-            android:id="@+id/iddescripciontentao"
+            android:id="@+id/iddescripcionrandy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/idnombretentao"
+            android:layout_below="@id/idnombrerandy"
             android:layout_marginStart="10dp"
             android:layout_marginTop="20dp"
             android:layout_toEndOf="@id/idIVCourseImage"
@@ -72,10 +72,10 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/idpreciotentao"
+            android:id="@+id/idpreciorandy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/iddescripciontentao"
+            android:layout_below="@+id/iddescripcionrandy"
             android:layout_marginStart="10dp"
             android:layout_marginTop="20dp"
             android:layout_toEndOf="@id/idIVCourseImage"

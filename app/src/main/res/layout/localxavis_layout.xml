@@ -1,6 +1,5 @@
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/idcardview"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -25,7 +24,7 @@
     -->
 
     <RelativeLayout
-        android:id="@+id/clicktentao"
+        android:id="@+id/clickxavis"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -46,7 +45,7 @@
             android:src="@drawable/burger3" />
 
         <TextView
-            android:id="@+id/idnombretentao"
+            android:id="@+id/idnombrexavis"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
@@ -59,26 +58,24 @@
 
         <!--Text VIew to display COurse Rating-->
         <!--Image used in present in drawable folder-->
-
         <TextView
-            android:id="@+id/iddescripciontentao"
+            android:id="@+id/iddescripcionxavis"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/idnombretentao"
-            android:layout_marginStart="11dp"
+            android:layout_below="@id/idnombrexavis"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="20dp"
             android:layout_toEndOf="@id/idIVCourseImage"
             android:drawablePadding="2dp"
             android:text="Hamburguesa de vacuno, queso cheddar,lechuga,tocino y aros de cebolla."
             android:textColor="#CE000000"
-            android:textStyle="bold"
-            tools:ignore="UnknownId" />
+            android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/idpreciotentao"
+            android:id="@+id/idprecioxavis"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/iddescripciontentao"
+            android:layout_below="@+id/iddescripcionxavis"
             android:layout_marginStart="10dp"
             android:layout_marginTop="20dp"
             android:layout_toEndOf="@id/idIVCourseImage"

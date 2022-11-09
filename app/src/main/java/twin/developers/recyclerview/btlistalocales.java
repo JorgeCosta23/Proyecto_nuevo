@@ -2,6 +2,7 @@ package twin.developers.recyclerview;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -19,6 +20,8 @@ public class btlistalocales extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_btlistalocales);
+
+
         Button localrandy = (Button) findViewById(R.id.idbotonrandy);
         localrandy.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -37,6 +40,46 @@ public class btlistalocales extends AppCompatActivity {
                 startActivity(intent1);
                 myRef.setValue("Cliqueaste el local Tentao");
                 }
+        });
+
+        Button localpapaj = (Button) findViewById(R.id.idbotonpapaj);
+        localpapaj.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(getApplicationContext(), papajActivity.class);
+                startActivity(intent1);
+                myRef.setValue("Cliqueaste el local Papa John's");
+            }
+        });
+
+        Button localxavis = (Button) findViewById(R.id.idbotonxavis);
+        localxavis.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(getApplicationContext(), xavisActivity.class);
+                startActivity(intent1);
+                myRef.setValue("Cliqueaste el local Xavi's Fries");
+            }
+        });
+
+        Button localramona = (Button) findViewById(R.id.idbotonramona);
+        localramona.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(getApplicationContext(), ramonaActivity.class);
+                startActivity(intent1);
+                myRef.setValue("Cliqueaste el local Xavi's Fries");
+            }
+        });
+
+        Button localquincho = (Button) findViewById(R.id.idbotonquincho);
+        localquincho.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(getApplicationContext(), quinchoActivity.class);
+                startActivity(intent1);
+                myRef.setValue("Cliqueaste el local Quincho Sándwich");
+            }
         });
     }
 }

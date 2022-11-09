@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="twin.developers.recyclerview">
 
     <application
@@ -10,11 +11,40 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RecyclerView">
         <activity
+            android:name=".quinchoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".localquincho"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".ramonaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".localramona"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".xavisActivity"
+            android:exported="false" />
+        <activity
+            android:name=".localxavis"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".papajActivity"
+            android:exported="false" />
+        <activity
+            android:name=".localpapaj"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
             android:name=".tentaoActivity"
             android:exported="false" />
         <activity
             android:name=".localtentao"
-            android:exported="false" />
+            android:exported="false"
+            tools:ignore="Instantiatable" />
         <activity
             android:name=".btlistalocales"
             android:exported="false" />
@@ -43,7 +73,9 @@
         <activity
             android:name=".randyActivity"
             android:exported="false" />
-        <activity android:name=".loginactivity">
+        <activity
+            android:name=".loginactivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
