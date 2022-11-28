@@ -57,7 +57,7 @@ public class iniciarsesionactivity extends AppCompatActivity {
                             FirebaseUser user = mAuth.getCurrentUser();
                             Toast.makeText(getApplicationContext()," Inicio de sesión exitoso",
                                     Toast.LENGTH_SHORT).show();
-                            Intent i = new Intent(getApplicationContext(),btlistalocales.class);
+                            Intent i = new Intent(getApplicationContext(),botonesactivity.class);
                             startActivity(i);
                             myRef.setValue("Cliqueaste el botón iniciar sesión para ingresar a la aplicación");
                             //updateUI(user);
